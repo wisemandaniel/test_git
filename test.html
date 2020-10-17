@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    }
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+    }
+
+    .logo h2 {
+        text-align: center;
+        color: blue;
+    }
+
+    nav {
+        background-color: black;
+    }
+
+    nav ul button {
+        border-radius: 40%;
+    }
+
+    nav ul {
+        padding: 30px;
+    }
+
+    nav ul .dropdown .dropbtn:hover{
+        background-color: tomato;
+    }
+
+    body {
+        background-color: cornflowerblue;
+    }
+
+    nav ul .dropdown-content {
+        background-color: black;
+    }
+
+    nav ul .dropdown-content a {
+        color: white;
+        font-size: 20px;
+    }
+
+    nav ul .dropdown-content a:hover {
+        background-color: tomato;
+        border-radius: 30%;
+    }
+</style>
+</head>
+<body>
+
+<div class="logo">
+    <h2>LOGO</h2>
+</div>
+
+<nav>
+    <ul>
+        <div class="dropdown" style="padding-left: 100px;
+        ">
+            <button class="dropbtn">HOME</button>
+          </div>
+          
+          <div class="dropdown" style="padding-left: 100px;
+          ">
+              <button class="dropbtn">ABOUT</button>
+            </div>
+          
+            <div class="dropdown" style="padding-left:100px;
+            ">
+              <button class="dropbtn">SERVICES</button>
+              <div class="dropdown-content">
+                <a href="#">Programming</a>
+                <a href="#">Web developement</a>
+                <a href="#">App developement</a>
+                <a href="#">Blogger</a>
+              </div>
+            </div>
+          
+            <div class="dropdown" style="padding-left: 100px;
+            ">
+              <button class="dropbtn">CONTACT</button>
+            </div>
+    </ul>
+</nav>
+
+</body>
+</html>
